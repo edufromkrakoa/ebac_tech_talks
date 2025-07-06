@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build ./src/index.html --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,7 +12,8 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.15.2",
-    "parcel": "^2.15.2"
+    "@parcel/transformer-sass": "^2.15.4",
+    "nodemon": "^3.1.10",
+    "parcel": "^2.15.4"
   }
 }
